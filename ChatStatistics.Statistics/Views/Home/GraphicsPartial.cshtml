@@ -1,0 +1,38 @@
+﻿<div id="general" style="height: 400px; margin: 0 auto; min-width: 310px;"></div>
+<br />
+<div id="generalByUser" style="height: 400px; margin: 0 auto; min-width: 310px;"></div>
+<br />
+<div id="users" style="height: 400px; margin: 0 auto; min-width: 310px;"></div>
+<br />
+<div id="usersBySymbols" style="height: 400px; margin: 0 auto; min-width: 310px;"></div>
+<br />
+<div id="usersBySize" style="height: 400px; margin: 0 auto; min-width: 310px;"></div>
+<br />
+<div id="usersWithAttachments" style="height: 400px; margin: 0 auto; min-width: 310px;"></div>
+<br />
+<div id="words" style="height: 400px; margin: 0 auto; min-width: 310px;"></div>
+<br />
+@Html.TextBox("wordByUser", "хуй")
+<br/>
+<input type="button" value="Submit" id="submitWordByUser"/>
+<br />
+<div id="wordsByUser" style="height: 400px; margin: 0 auto; min-width: 310px;"></div>
+<br />
+@Html.TextBox("wordByUserTimeline", "хуй")
+<br />
+<input type="button" value="Submit" id="submitWordByUserTimeline" />
+<br />
+<div id="wordsByUserTimeline" style="height: 400px; margin: 0 auto; min-width: 310px;"></div>
+
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+    <script src="~/Scripts/general.js"></script>
+    <script src="~/Scripts/generalByUser.js"></script>
+    <script src="~/Scripts/users.js"></script>
+    <script src="~/Scripts/usersWithAttachments.js"></script>
+    <script src="~/Scripts/wordsStats.js"></script>
+    <script src="~/Scripts/wordsByUserStats.js"></script>
+    <script src="~/Scripts/wordsByUserTimelineStats.js"></script>
+    <script src="~/Scripts/usersBySymbols.js"></script>
+    <script src="~/Scripts/usersBySize.js"></script>
+    <script src="~/Scripts/ajaxLoaders.js"></script>
